@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Martel+Sans&family=Yeseva+One&display=swap');
+/* Reset global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Style for the navigation bar */
+.nav {
+    background-color: rgb(166, 75, 18);
+    color: white;
+    font-family: 'Yeseva One', serif;
+    padding: 10px 20px; /* Add some padding for spacing inside the bar */
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for navigation links */
+.pages a, .khoj a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Reset h1 and h2 styles */
+h1, h2 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+/* Style for the Home section */
+.Home {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.home-text h1 {
+    font-size: 2.5rem;
+}
+
+.home-text h2 {
+    font-size: 2rem;
+    color: #666;
+}
+
+
+.Home img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    
+}
+
+.bestsellers{
+    text-align: center;
+}
+
+.orange-box{
+    background-color: rgb(166, 75, 18);
+    border-radius: 40px;
+}
+
+.white-box{
+    margin: 10%;
+    
+    background-color: white;
+    border-radius: 38px;
+}
+
+.bestsellers h1{
+    color: rgb(166, 75, 18);
+    
+}
